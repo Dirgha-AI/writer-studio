@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.log
+*.tsbuildinfo
+.DS_Store
+.env
+.env.local
+.env.*.local
+.env.production
+
+.idea/
+.vscode/
+!.vscode/settings.json
+
+*.bak
+*.tmp
+.claude/
