@@ -1,0 +1,17 @@
+# Code owners for Writer Studio
+# GitHub uses this to auto-request reviews on PRs.
+# Order matters: later patterns override earlier ones for overlapping paths.
+
+# Default owner — everything not explicitly matched below
+*                               @dirghaai/maintainers
+
+# CI and release
+/.github/workflows/             @dirghaai/maintainers
+/package.json                   @dirghaai/maintainers
+/pnpm-lock.yaml                 @dirghaai/maintainers
+/package-lock.json              @dirghaai/maintainers
+
+# Docs are lower barrier — drive-by fixes welcome
+/README.md                      @dirghaai/docs
+/CONTRIBUTING.md                @dirghaai/docs
+/docs/                          @dirghaai/docs
