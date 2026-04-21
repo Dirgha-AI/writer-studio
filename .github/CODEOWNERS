@@ -1,17 +1,20 @@
+# Temporary: uses @salikshah until @dirghaai/maintainers team is created on GitHub.
+# When teams exist, sed -i 's#@salikshah#@dirghaai/maintainers#' then commit.
+
 # Code owners for Writer Studio
 # GitHub uses this to auto-request reviews on PRs.
 # Order matters: later patterns override earlier ones for overlapping paths.
 
 # Default owner — everything not explicitly matched below
-*                               @dirghaai/maintainers
+*                               @salikshah
 
 # CI and release
-/.github/workflows/             @dirghaai/maintainers
-/package.json                   @dirghaai/maintainers
-/pnpm-lock.yaml                 @dirghaai/maintainers
-/package-lock.json              @dirghaai/maintainers
+/.github/workflows/             @salikshah
+/package.json                   @salikshah
+/pnpm-lock.yaml                 @salikshah
+/package-lock.json              @salikshah
 
 # Docs are lower barrier — drive-by fixes welcome
-/README.md                      @dirghaai/docs
-/CONTRIBUTING.md                @dirghaai/docs
-/docs/                          @dirghaai/docs
+/README.md                      @salikshah
+/CONTRIBUTING.md                @salikshah
+/docs/                          @salikshah
