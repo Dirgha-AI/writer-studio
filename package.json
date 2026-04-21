@@ -1,9 +1,9 @@
 {
   "name": "@dirgha/writer-studio",
   "version": "0.1.0",
-  "description": "Open-source writing studio API — documents, research, AI co-writing, binder, manuscript, screenplay, voice, and RAG.",
+  "description": "Open-source writing studio API \u2014 documents, research, AI co-writing, binder, manuscript, screenplay, voice, and RAG.",
   "license": "Apache-2.0",
-  "author": "Dirgha LLC <team@dirgha.ai>",
+  "author": "Salik Shah <salik@dirgha.ai>",
   "homepage": "https://dirgha.ai/writer",
   "repository": {
     "type": "git",
@@ -48,5 +48,11 @@
     "@types/pdf-parse": "^1.1.4",
     "tsx": "^4.0.0",
     "typescript": "^5.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dirghaai/writer-studio/issues"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
